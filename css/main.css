@@ -1,0 +1,80 @@
+/*
+Web-entwurf main CSS file. It is a basic stylesheet for all the components of web-entwurf.
+Created By: Lakhan M. Samani
+*/
+
+body {
+	height:100%;
+	font-family: sans-serif;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+
+/* Code for navigation bar */
+nav{
+	background-color:#1B3677;
+	width: 100%;
+	height: 2.5em;
+}
+
+
+/* Section to mention name of organization through either text, image or both */
+#org-name{
+	color: #FFFFFF;
+	padding-left: 30px;
+	padding-top: 6px;
+	padding-bottom: 5px;
+	font-size: 22px;
+	font-weight: 3px;
+}
+#menu-list{
+	padding-right: 30px;
+	margin-top: -5px;
+}
+#menu li{
+	display: inline;
+	border-right: 1px solid #FFFFFF;
+}
+
+#menu li a{
+	color: #FFFFFF;
+	text-decoration: none;
+	padding:10px;
+}
+
+.slider-container{
+	margin-left: 2em;
+	margin-right: 2em;
+	text-align: center;
+	height: 300px;
+}
+
+.slider{
+	position:relative;
+}
+.slider div{
+	position:absolute;
+	z-index:1
+}
+.slider div.slider-active{
+	z-index:3
+}
+.slider-bullet{
+	width:600px;
+	top: 0px;
+	height:10px;
+	margin-top: -10px;
+	text-align: center;
+}
+.slider-bullet li{
+	display: inline-block;
+}
+.slider-bullet li a{
+	text-decoration: none;
+	font-size: 50px;
+}
