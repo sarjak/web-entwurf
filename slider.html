@@ -4,6 +4,7 @@
 		<title>Web-Entwurf</title>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css">
 		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/button.css">
 	</head>
 	<body>
 		<nav>
@@ -17,7 +18,15 @@
 			</section>
 		</nav>
 		<br/>
-		<div class="slider-container">
+		<div align="center">
+		
+		<button id="btn1" class="btn" onclick="prev()" ><span class="arrow"><</span></button>
+		<image id="img1" src="images/slider/1.jpg" style="height:300px;width:600px;border:1px solid;"></image>		
+		<button id="btn2" class="btn" onclick="next()"><span class="arrow">></span></button>
+
+		</div>
+		
+<!--		<div class="slider-container">
 			<div class="slider">
 				<div id="item-1" class="slider-item slider-active"><img src="images/slider/10.jpg" style="height:300px;width:600px;border:1px solid;" /></div>
 				<div id="item-2" class="slider-item"><img src="images/slider/13.jpg" style="height:300px;width:600px;border:1px solid;" /></div>
@@ -26,12 +35,17 @@
 			</div>
 			
 		</div>
+	-->	
 		
-		<div class="slider-bullet">
-
-		</div>
+		
+<!--		<div class="slider-bullet">
+		
+		</div>	-->
+		
 		<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
 		<script type="text/javascript" src="js/slider.js"></script>
+		<script type="text/javascript" src="js/nextimage.js"></script>
+	
 	</body>
 
 </html>
