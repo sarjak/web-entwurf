@@ -1,1 +1,37 @@
 
+.btn {
+  display: inline-block;
+  background: #e2e2e2;
+  border: 0;
+  line-height: 2.5em;
+  outline: none;
+  text-decoration: none;
+  color: #666;
+  
+ } 
+ .arrow {
+    display: inline-block;
+    line-height: 2.5em;
+    text-align: center;
+    background: #333;
+    color: white;
+    font-size: 1em;
+    width: 2.5em;
+    transition: margin 200ms;
+    margin-left: ;
+  }
+  
+  &:hover {
+    background: white;
+    .arrow {
+      margin-left: 1.25em;
+      background-color: darken(#333,5%);
+    } 
+  }
+  &:active {
+    background: #ccc;
+    .arrow {
+      margin-left: 1.5em;
+    } 
+  }
+}
